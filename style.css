@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.nav .nav-active-link {
+  color: red;
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1180px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav .middle {
+  margin: 0 121px;
+}
+
+.cars {
+  display: flex;
+  height: 439px;
+  background-color: #ebebf0;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars .middle {
+  margin: 0 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #19126b;
+  height: 161px;
+  padding: 0 45px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer .coppyright {
+  color: white;
+}
+
+footer li {
+  margin: 0 20px;
+}
+
+.text-car {
+  background-color: #ebebf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 516px;
+  color: #090346;
+}
+
+.title {
+  color: #19126b;
+}
+
+.text-car .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1180px;
+}
+
+.ccontainer {
+  width: 1380px;
+}
+.address {
+  font-style: normal !important;
+}
+
+.welcome {
+  margin: 120px;
+  color: #090346;
+  max-width: 530px;
+}
+.welcome .h3 {
+  color: #17326e;
+}
+
+.about-us {
+  color: #090346;
+  margin: 130px;
+  margin-left: 40px;
+  max-width: 530px;
+}
